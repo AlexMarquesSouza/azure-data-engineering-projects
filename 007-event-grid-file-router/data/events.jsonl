@@ -1,0 +1,4 @@
+{"id":"e1","eventType":"Microsoft.Storage.BlobCreated","subject":"/blobServices/default/containers/landing/blobs/sales/2026-08-10.csv","data":{"contentLength":1200}}
+{"id":"e2","eventType":"Microsoft.Storage.BlobCreated","subject":"/blobServices/default/containers/landing/blobs/customers/2026-08-10.csv","data":{"contentLength":800}}
+{"id":"e3","eventType":"Microsoft.Storage.BlobDeleted","subject":"/blobServices/default/containers/landing/blobs/sales/old.csv","data":{}}
+{"id":"e1","eventType":"Microsoft.Storage.BlobCreated","subject":"/blobServices/default/containers/landing/blobs/sales/2026-08-10.csv","data":{"contentLength":1200}}

@@ -1,0 +1,8 @@
+pedido_id,data_pedido,cliente_id,produto,quantidade,preco_unitario
+PED-1001,2026-07-28,CLI-001,Notebook Stand,2,149.90
+PED-1002,2026-07-28,CLI-002,Teclado Mecanico,1,399.00
+PED-1003,2026-07-29,CLI-001,Mouse sem fio,3,89.90
+PED-1003,2026-07-29,CLI-001,Mouse sem fio,3,89.90
+PED-1004,2026-07-29,CLI-003,Webcam,0,259.90
+PED-1005,2026-07-30,CLI-004,Hub USB-C,2,-10.00
+PED-1006,2026-07-30,CLI-005,Monitor 27,1,1899.90

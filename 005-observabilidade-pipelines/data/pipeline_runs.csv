@@ -1,0 +1,6 @@
+run_id,pipeline,status,duration_seconds,started_at
+r1,ingest_sales,Succeeded,85,2026-08-08T08:00:00Z
+r2,ingest_sales,Failed,42,2026-08-08T09:00:00Z
+r3,customer_dim,Succeeded,310,2026-08-08T09:30:00Z
+r4,ingest_sales,Succeeded,95,2026-08-08T10:00:00Z
+r5,customer_dim,Succeeded,250,2026-08-08T10:30:00Z

@@ -1,0 +1,46 @@
+site_name: Radar de Engenharia de Dados — Azure
+site_description: Projetos práticos, locais e incrementais de Engenharia de Dados
+use_directory_urls: false
+docs_dir: .
+site_dir: ../site-local/Azure
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    primary: blue
+    accent: light blue
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+exclude_docs: |
+  .git/**
+  **/.git/**
+  **/__pycache__/**
+  **/data/**
+  **/src/**
+  **/tests/**
+  mkdocs.yml
+nav:
+  - Início: README.md
+  - Padrão didático: docs/PADRAO-DIDATICO.md
+  - 'Projeto 00 — Configuração do ambiente Azure': 000-configuracao-ambiente/README.md
+  - 'Pipeline Medalhão de Vendas no Azure': 001-medallion-vendas/README.md
+  - 'Carga incremental com watermark': 002-carga-incremental-watermark/README.md
+  - 'Dimensão histórica de clientes com SCD Tipo 2': 003-dimensao-scd2-clientes/README.md
+  - 'Telemetria com janelas fixas': 004-janelas-stream-analytics/README.md
+  - 'Observabilidade de pipelines de dados': 005-observabilidade-pipelines/README.md
+  - 'Simulador de lifecycle para ADLS': 006-lifecycle-adls/README.md
+  - 'Roteador de arquivos com Azure Event Grid': 007-event-grid-file-router/README.md
+  - 'Advisor de partition key para Cosmos DB': 008-cosmos-partition-key-advisor/README.md
+  - 'Upsert idempotente com Delta Lake': 009-delta-merge-upsert/README.md
+  - 'Otimizador de leitura no Synapse Serverless': 010-synapse-scan-optimizer/README.md
+  - 'Validador de linhagem para Microsoft Purview': 011-purview-lineage-validator/README.md
+  - 'Planejador de reprocessamento para tumbling windows': 012-adf-tumbling-window-reprocess-planner/README.md
+  - 'Linter de referências ao Key Vault no ADF': 013-adf-key-vault-reference-linter/README.md
+  - 'Advisor de compactação de pequenos arquivos': 014-databricks-small-files-compaction-advisor/README.md

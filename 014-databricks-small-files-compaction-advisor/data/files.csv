@@ -1,0 +1,13 @@
+partition,file,size_mb
+date=2026-08-17,p01.parquet,3
+date=2026-08-17,p02.parquet,4
+date=2026-08-17,p03.parquet,5
+date=2026-08-17,p04.parquet,3
+date=2026-08-17,p05.parquet,6
+date=2026-08-17,p06.parquet,4
+date=2026-08-17,p07.parquet,5
+date=2026-08-17,p08.parquet,3
+date=2026-08-17,p09.parquet,4
+date=2026-08-17,p10.parquet,5
+date=2026-08-18,p01.parquet,96
+date=2026-08-18,p02.parquet,110

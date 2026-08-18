@@ -1,0 +1,13 @@
+{
+  "lote": "2c169067f73d",
+  "inicio_utc": "2026-08-03T01:20:43.733048+00:00",
+  "fim_utc": "2026-08-03T01:20:43.734542+00:00",
+  "registros_validos": 4,
+  "registros_rejeitados": 3,
+  "arquivos": [
+    "data/bronze/vendas_2c169067f73d.csv",
+    "data/silver/vendas_validas.csv",
+    "data/gold/vendas_diarias.csv",
+    "data/quarantine/vendas_rejeitadas.csv"
+  ]
+}

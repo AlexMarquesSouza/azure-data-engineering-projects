@@ -1,0 +1,5 @@
+path,last_modified,tier,size_mb
+bronze/2026/08/recent.csv,2026-08-05,hot,25
+bronze/2026/06/old.csv,2026-06-01,hot,800
+silver/2026/01/history.parquet,2026-01-01,cool,1500
+tmp/2025/01/debug.json,2025-01-15,archive,10

@@ -1,0 +1,1 @@
+{"triggers":[{"name":"bronze_hourly","depends_on":[]},{"name":"silver_hourly","depends_on":["bronze_hourly"]},{"name":"quality_hourly","depends_on":["silver_hourly"]},{"name":"gold_daily","depends_on":["quality_hourly"]},{"name":"unrelated_metrics","depends_on":[]}]}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitetura do pipeline medalhao de vendas</title>
+  <desc id="desc">CSV passa pelas camadas bronze, qualidade, silver e gold; registros invalidos vao para quarentena.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071b2f"/><stop offset="1" stop-color="#12395a"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#62d4ff"/></marker>
+    <style>.box{rx:16;stroke-width:2}.t{font:700 20px system-ui;fill:#fff}.s{font:15px system-ui;fill:#d8edff}.a{stroke:#62d4ff;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="470" rx="24" fill="url(#bg)"/>
+  <text x="50" y="58" class="t" font-size="28">Pipeline diário de vendas · Azure Data Lake</text>
+  <text x="50" y="88" class="s">Validação, rastreabilidade e dados prontos para consumo</text>
+  <rect class="box" x="50" y="150" width="180" height="110" fill="#1d4d70" stroke="#62d4ff"/>
+  <text x="140" y="190" text-anchor="middle" class="t">Origem</text><text x="140" y="222" text-anchor="middle" class="s">vendas.csv</text>
+  <rect class="box" x="290" y="150" width="180" height="110" fill="#744924" stroke="#ffba66"/>
+  <text x="380" y="190" text-anchor="middle" class="t">Bronze</text><text x="380" y="222" text-anchor="middle" class="s">cópia imutável</text>
+  <rect class="box" x="530" y="150" width="180" height="110" fill="#334b61" stroke="#b8d4e8"/>
+  <text x="620" y="190" text-anchor="middle" class="t">Qualidade</text><text x="620" y="222" text-anchor="middle" class="s">schema · regras · dedup</text>
+  <rect class="box" x="770" y="150" width="180" height="110" fill="#52626d" stroke="#d9e5ec"/>
+  <text x="860" y="190" text-anchor="middle" class="t">Silver</text><text x="860" y="222" text-anchor="middle" class="s">vendas válidas</text>
+  <rect class="box" x="1010" y="150" width="140" height="110" fill="#79651d" stroke="#ffe36e"/>
+  <text x="1080" y="190" text-anchor="middle" class="t">Gold</text><text x="1080" y="222" text-anchor="middle" class="s">KPI diário</text>
+  <path class="a" d="M230 205 H280"/><path class="a" d="M470 205 H520"/><path class="a" d="M710 205 H760"/><path class="a" d="M950 205 H1000"/>
+  <rect class="box" x="530" y="330" width="180" height="90" fill="#622f42" stroke="#ff87ad"/>
+  <text x="620" y="368" text-anchor="middle" class="t">Quarentena</text><text x="620" y="397" text-anchor="middle" class="s">linha + motivo</text>
+  <path class="a" d="M620 260 V320"/>
+</svg>

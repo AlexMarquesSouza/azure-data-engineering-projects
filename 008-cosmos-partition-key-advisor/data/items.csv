@@ -1,0 +1,7 @@
+id,tenant_id,status,customer_id,ru
+o1,t1,open,c1,5
+o2,t1,open,c2,8
+o3,t1,closed,c1,4
+o4,t2,open,c3,6
+o5,t3,closed,c4,5
+o6,t4,open,c5,5

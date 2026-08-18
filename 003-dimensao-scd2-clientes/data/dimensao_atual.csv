@@ -1,0 +1,3 @@
+cliente_sk,cliente_id,nome,cidade,inicio_vigencia,fim_vigencia,ativo
+1,C001,Ana Souza,Sao Paulo,2026-01-01,,true
+2,C002,Bruno Lima,Curitiba,2026-01-01,,true

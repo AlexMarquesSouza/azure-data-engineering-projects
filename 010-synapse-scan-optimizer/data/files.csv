@@ -1,0 +1,5 @@
+path,format,size_mb,year,month
+sales/year=2025/month=12/a.csv,csv,900,2025,12
+sales/year=2026/month=01/a.parquet,parquet,180,2026,1
+sales/year=2026/month=02/a.parquet,parquet,200,2026,2
+sales/year=2026/month=03/a.parquet,parquet,220,2026,3
